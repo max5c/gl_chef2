@@ -8,6 +8,7 @@
 7. Create backup folder : `'/opt/backups'`
 8. Create daily cronjob with backup of each DB.
 9. Tune `innod_db_buffer_pool_size` to be `1024Mb`. Keep as string parameter ( cookbook attribute )
+10. Set mysql datadir to `/opt/<instance_name>/data/`. Keep as cookbook attribute.
 
 
 ### Dependencies:
